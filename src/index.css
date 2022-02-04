@@ -1,9 +1,26 @@
 body {
-  background-image: linear-gradient(to bottom right, #622FD9, #835ae1);
+  background-image: linear-gradient(#622FD9, #835ae1);
   min-height: 100vh;
+  color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navlink {
+  color: #fff;
+  padding: 10px;
+  font-size: 1.25em;
+}
+.navlink:hover {
+  background-image: linear-gradient(#835ae1, #ca3ed6);
+  color: #fff;
+}
+
+.logo {
+  padding: 10px;
+}
+
+/* 255, 68, 99 */
