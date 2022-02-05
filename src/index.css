@@ -27,6 +27,27 @@ code {
   padding: 10px;
 }
 
+p {
+  font-size: 1.25em;
+}
+
+.box{
+  display: none;
+  width: 100%;
+}
+
+a:hover + .box,.box:hover{
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+
+
+
+
+
+
 /* 255, 68, 99 */
 
 /* https://github.com/mars/create-react-app-buildpack.git */

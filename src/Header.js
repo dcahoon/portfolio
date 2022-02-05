@@ -6,7 +6,9 @@ export default function Header() {
             <h1 
                 className="
                     logo
+                    col-xs-12
                     col-sm-12
+                    col-md-12
                     col-lg-6
                 "
             >
@@ -18,6 +20,7 @@ export default function Header() {
                     navlink
                     col-xs-4
                     col-sm-4
+                    col-md-4
                     col-lg-2
                     align-self-center
                 "
@@ -30,6 +33,7 @@ export default function Header() {
                     navlink
                     col-xs-4
                     col-sm-4
+                    col-md-4
                     col-lg-2
                     align-self-center
                 "
@@ -42,6 +46,7 @@ export default function Header() {
                     navlink
                     col-xs-4
                     col-sm-4
+                    col-md-4
                     col-lg-2
                     align-self-center
                 "
