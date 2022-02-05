@@ -16,6 +16,7 @@ export default function Header() {
                 to={"/"} 
                 className="
                     navlink
+                    col-xs-4
                     col-sm-4
                     col-lg-2
                     align-self-center
@@ -27,6 +28,7 @@ export default function Header() {
                 to={"/about"} 
                 className="
                     navlink
+                    col-xs-4
                     col-sm-4
                     col-lg-2
                     align-self-center
@@ -38,6 +40,7 @@ export default function Header() {
                 to={"/contact"} 
                 className="
                     navlink
+                    col-xs-4
                     col-sm-4
                     col-lg-2
                     align-self-center
