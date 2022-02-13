@@ -18,6 +18,7 @@ code {
   color: #fff;
   padding: 10px;
   font-size: 1.25em;
+  text-align: center;
 }
 .navlink:hover {
   background-image: linear-gradient(#835ae1, #ca3ed6);
@@ -53,7 +54,8 @@ a:hover + .box,.box:hover{
 }
 
 .card:hover {
-  background-image: linear-gradient(#835ae1, #ca3ed6);
+  /* background-image: linear-gradient(#835ae1, #ca3ed6); */
+  background-color: #111;
 }
 
 a {
@@ -77,8 +79,10 @@ a:hover {
   margin: 0 20%;
 }
 
-
-
+.thumbnail {
+  height: 7rem;
+  width: 7rem;
+}
 
 
 

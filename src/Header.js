@@ -49,6 +49,7 @@ export default function Header() {
                     col-md-4
                     col-lg-2
                     align-self-center
+                    mr-2
                 "
             >
                 CONTACT
