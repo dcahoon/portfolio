@@ -1,11 +1,11 @@
 body {
   /* background-image: linear-gradient(#622FD9, #835ae1); */
-  /* background-color: #000; */
-  background-image: url('./images/glass_planet.png');
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
+  background-color: #000;
   color: #fff;
+}
+
+.App {
+  margin: 0 10%;
 }
 
 code {
@@ -90,8 +90,19 @@ a:hover {
 
 
 
+
+
 /* 255, 68, 99 */
 
 /* https://github.com/mars/create-react-app-buildpack.git */
 
 /* https://serene-meadow-81306.herokuapp.com/ */
+
+/* 
+pink          #ea356f
+orange        #fc560e
+purple        #9336b6
+blue-purple   #713af6
+teal          #43efd0
+ */
+

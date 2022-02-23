@@ -10,7 +10,13 @@ function App() {
     <div className="App">
       <Header />
 
-      <Switch>
+    <Home />
+
+    <About />
+
+    <Contact />
+
+      {/* <Switch>
         <Route path={"/contact"}>
           <Contact />
         </Route>
@@ -20,7 +26,7 @@ function App() {
         <Route path={"/"}>
           <Home />
         </Route>
-      </Switch>
+      </Switch> */}
 
     </div>
   );

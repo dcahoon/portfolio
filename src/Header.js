@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
+const dylancahoon = require("./images/dylancahoon.png")
 
 export default function Header() {
     return (
-        <div className="nav">
-            <h1 
+        <div className="nav row">
+            {/* <h1 
                 className="
                     logo
                     col-xs-12
@@ -12,9 +13,10 @@ export default function Header() {
                     col-lg-6
                 "
             >
-                {`{ ... } dylancahoonweb`}
-            </h1>
-            <Link 
+            
+            </h1> */}
+            <img className="col-6 p-4" src={dylancahoon}></img>
+            {/* <Link 
                 to={"/"} 
                 className="
                     navlink
@@ -49,11 +51,10 @@ export default function Header() {
                     col-md-4
                     col-lg-2
                     align-self-center
-                    mr-2
                 "
             >
                 CONTACT
-            </Link>
+            </Link> */}
         </div>
     )
 }

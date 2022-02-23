@@ -1,5 +1,6 @@
 import welovemovies_img from "./images/welovemovies.png"
 import resume from "./images/resume.png"
+import resumelink from "./images/resumelink.png"
 import html_icon from "./images/html_icon.png"
 import css_icon from "./images/css_logo.png"
 import javascript_icon from "./images/javascript_icon.png"
@@ -19,28 +20,27 @@ export default function About() {
 
             <div className="row d-flex justify-content-center">
 
-                <div className="row justify-content-center my-4">
-
-                    <div className="col-lg-2 col-sm-4">
-                        <a href="#">
-                            <img className="img-thumbnail" src={resume}></img>
-                            <a className="navlink col-5 border border-white" href="#" target="_blank">VIEW RESUME</a>
-                        </a>
+                <div className="row">
+                    <div className="col-4">
+                        <img className="img-thumbnail" src={resume}></img>
                     </div>
-                        
-                    <div className="col-lg-7 col-sm-8">
-
-                        <img src={html_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
-                        <img src={css_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
-                        <img src={javascript_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
-                        <img src={react_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
-                        <img src={node_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
-                        <img src={knex_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
-                        <img src={git_icon}className="img-thumbnail thumbnail m-2" alt="icon"></img>
-
+                    <div className="col-8">
+                        <a href="#"><img src={resumelink}></img></a>
                     </div>
-                    
                 </div>
+                    
+                <div className="">
+
+                    <img src={html_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
+                    <img src={css_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
+                    <img src={javascript_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
+                    <img src={react_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
+                    <img src={node_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
+                    <img src={knex_icon} className="img-thumbnail thumbnail m-2" alt="icon"></img>
+                    <img src={git_icon}className="img-thumbnail thumbnail m-2" alt="icon"></img>
+
+                </div>
+                
 
                 <div className="row card-deck m-0 d-flex justify-content-center">
 
