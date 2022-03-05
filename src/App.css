@@ -1,25 +1,31 @@
+* { margin: 0; padding: 0; }
+
 header {
-    background-color: #333;
-    color: #fff;
+
 }
 
 section {
     min-height: 100vh;
 }
 
-.hero-section {
-    background-image: url("./images/glass_planet.png");
-    background-position: center;
-}
-
-.logo-img {
-    
-}
-
-.Link {
-    padding: 0;
+.row {
     margin: 0;
+    padding: 0;
 }
+
+.hero-section {
+    background-image: url("./images/hero_image_3.png");
+    background-position: center;
+    width: 100%;
+}
+
+
+
+.display-1 {
+    color: #fff;
+}
+
+
 
 h1 {
     color: #fff;
@@ -31,16 +37,10 @@ h3 {
     color: #fff;
 }
 
-p {
-    padding: 0;
-    margin: 0;
-}
-
 
 .nav-link {
-    color: #fff;
-    padding: 0;
-    
+    color: #000;
+    text-align: center;
 }
 .nav-link:hover {
     background-color: #888;

@@ -7,7 +7,7 @@ export default function AltApp() {
         <>
             <Header />
             <section className="hero-section d-flex">
-                <h1>Web Development</h1>
+                <div className="display-1">Web Development</div>
             </section>
             <section>
                 <div className="w-50">

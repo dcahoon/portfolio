@@ -4,7 +4,7 @@ const dylancahoon = require("./images/dylancahoon.png")
 export default function Header() {
     return (
         <header className="row">
-            <img className="logo-img col-5" src={dylancahoon}></img>
+            <img className="logo-img col-6" src={dylancahoon}></img>
             <Link to={"/"} className="nav-link col-2">
                 <p>about</p>
             </Link>
