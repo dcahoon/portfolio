@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-const dylancahoon = require("./images/dylancahoon.png")
+const dylancahoon = require("../images/dylancahoon.png")
 
 export default function Header() {
     return (
@@ -15,8 +15,8 @@ export default function Header() {
             >
             
             </h1> */}
-            <img className="col-6 p-4" src={dylancahoon}></img>
-            {/* <Link 
+            <img className="col-6 px-5" src={dylancahoon}></img>
+            <Link 
                 to={"/"} 
                 className="
                     navlink
@@ -54,7 +54,7 @@ export default function Header() {
                 "
             >
                 CONTACT
-            </Link> */}
+            </Link>
         </div>
     )
 }
