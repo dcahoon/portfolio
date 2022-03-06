@@ -23,7 +23,7 @@ export default function AltApp() {
                 <nav className="navbar navbar-light navbar-expand-lg justify-content-end">           
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">about</a>
+                            <a class="nav-link white-font" href="#about">about</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#resume">resume</a>
@@ -36,11 +36,11 @@ export default function AltApp() {
                         </li>
                     </ul>
                 </nav>
-                <div className="display-3 slide-in-1">
+                <div className="display-3 slide-in-1 white-font">
                     Dylan Cahoon
                 </div>
-                <div className="display-1 slide-in-2">
-                    Web Developer
+                <div className="display-4 slide-in-2 white-font">
+                    Full Stack Web Developer
                 </div>
             </section>
             

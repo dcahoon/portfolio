@@ -8,6 +8,10 @@ section {
     background-color: #ccc;
 }
 
+.white-font {
+    color: #fff;
+}
+
 .row {
     margin: 0;
     padding: 0;
@@ -17,20 +21,17 @@ section {
     background-image: url("./images/hero_image_3.png");
     background-position: center;
     width: 100%;
-    color: #fff;
 }
 
-.display-1, .display-3 {
-    color: white;
+.display-1, .display-3, .display-4 {
     margin-left: 5%;
 }
 .display-1 {
-    font-size: 5em;
-    
-}
-.display-3 {
     font-size: 7em;
     margin-top: 2em;
+}
+.display-3 {
+    font-size: 5em;
 }
 .display-4 {
     font-size: 2em;
@@ -86,6 +87,8 @@ h3 {
     animation-name: slidein;
     animation-delay: 1s;
 }
+
+
 
 
 
