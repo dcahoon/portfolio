@@ -1,25 +1,104 @@
 import './App.css';
 import Header from "./Header"
+import javascript_icon from "./images/javascript_icon.png"
+import react_icon from "./images/react_icon.png"
+import html_icon from "./images/html_icon.png"
+import css_logo from "./images/css_logo.png"
+import postgres_icon from "./images/postgres_icon.png"
+import knex_icon from "./images/knex_icon.png"
+import node_icon from "./images/node_icon.png"
+import git_icon from "./images/git_icon.png"
+import github_icon from "./images/github_icon.jpg"
+import postman_icon from "./images/postman_icon.png"
+import react_router_icon from "./images/react_router_icon.jpg"
+import heroku_icon from "./images/heroku_icon.png"
+
 
 export default function AltApp() {
     
     return (
         <>
-            <Header />
-            <section className="hero-section d-flex">
-                <div className="display-1">Web Development</div>
+
+            <section className="hero-section">
+                <nav className="navbar navbar-light navbar-expand-lg justify-content-end">           
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div className="display-3 slide-in-1">
+                    Dylan Cahoon
+                </div>
+                <div className="display-1 slide-in-2">
+                    Web Developer
+                </div>
             </section>
-            <section>
-                <div className="w-50">
-                    <p className="display-2 p-4 pb-1">Welcome to my site!</p>
-                    <p className="display-6 py-1 px-4">
-                        Hi, my name is Dylan. I am currently located in Lansing, MI and am persuing a career as a full stack web developer. I have an associates degree as a computer programmer/analyst. I have recently completed the Thinkful software engineering bootcamp to strengthen my skills and prepare myself for a career in web.
+            
+            <section id="about">
+                <div className="row p-5">
+                    <p className="col-12 display-2 p-4">
+                        Welcome
                     </p>
-                    <p className="display-6 py-1 px-4">
+                    <div className="col-6">
+                        <p className="display-4 p-4">
+                            Hi, my name is Dylan. I am currently located in Lansing, MI and persuing a career as a front-end, back-end, or full stack web developer. 
+                        </p>
+                        <p className="display-4 p-4">
+                            I have an associates degree as a computer programmer/analyst. I have recently completed the Thinkful software engineering bootcamp to strengthen my skills and prepare myself for a career in web development.
+                        </p>
+                    </div>
+                    <p className="col-6 display-4 p-4">
                         In my free time I enjoy woodworking, gardening, crafts, and video games. I love learning new skills and working with my hands.
                     </p>
                 </div>
             </section>
+
+            <section id="resume">
+                <div className="row p-5">
+                    <p className="col-12 display-2 p-4">
+                        Resume (content coming soon)
+                    </p>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div className="row p-5">
+                    <p className="display-2 p-4 col-12">Skills</p>
+                </div>
+                <div className="col-12 p-5">
+                    <img src={javascript_icon} className="icon-img"></img>
+                    <img src={react_icon} className="icon-img"></img>
+                    <img src={html_icon} className="icon-img"></img>
+                    <img src={css_logo} className="icon-img"></img>
+                    <img src={postgres_icon} className="icon-img"></img>
+                    <img src={knex_icon} className="icon-img"></img>
+                    <img src={node_icon} className="icon-img"></img>
+                    <img src={git_icon} className="icon-img"></img>
+                    <img src={github_icon} className="icon-img"></img>
+                    <img src={react_router_icon} className="icon-img"></img>
+                    <img src={postman_icon} className="icon-img"></img>
+                    <img src={heroku_icon} className="icon-img"></img>
+                </div>
+            </section>
+
+            <section id="contact">
+            <div className="row p-5">
+                    <p className="col-12 display-2 p-4">
+                        Contact (content coming soon)
+                    </p>
+                </div>
+            </section>
+
         </>
     )
 

@@ -1,11 +1,11 @@
 * { margin: 0; padding: 0; }
 
-header {
-
-}
-
 section {
     min-height: 100vh;
+}
+
+#resume, #contact {
+    background-color: #ccc;
 }
 
 .row {
@@ -17,14 +17,25 @@ section {
     background-image: url("./images/hero_image_3.png");
     background-position: center;
     width: 100%;
-}
-
-
-
-.display-1 {
     color: #fff;
 }
 
+.display-1, .display-3 {
+    color: white;
+    width: 100%;
+    margin-left: 5%;
+}
+.display-1 {
+    font-size: 5em;
+    
+}
+.display-3 {
+    font-size: 7em;
+    margin-top: 2em;
+}
+.display-4 {
+    font-size: 2em;
+}
 
 
 h1 {
@@ -37,16 +48,45 @@ h3 {
     color: #fff;
 }
 
-
 .nav-link {
-    color: #000;
+    color: white;
     text-align: center;
+    margin-right: 4em;
 }
 .nav-link:hover {
     background-color: #888;
+}
+
+.navbar {
     color: #fff;
 }
 
+.icon-img {
+    width: 5em;
+    height: 5em;
+    margin: 2em;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.slide-in-1 {
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-delay: 0.5s;
+}
+
+.slide-in-2 {
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-delay: 1s;
+}
 
 
 
