@@ -1,5 +1,5 @@
 import './App.css';
-import Header from "./Header"
+import Nav from "./Nav"
 import javascript_icon from "./images/javascript_icon.png"
 import react_icon from "./images/react_icon.png"
 import html_icon from "./images/html_icon.png"
@@ -19,51 +19,41 @@ export default function AltApp() {
     return (
         <>
 
-            <section className="hero-section">
-                <nav className="navbar navbar-light navbar-expand-lg justify-content-end">           
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link white-font" href="#about">about</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume">resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div className="display-3 slide-in-1 white-font">
+            <section className="hero-section" id="home">
+                <Nav />
+                <div className="montserrat left-margin white name-header size-8 slide-in-1">
                     Dylan Cahoon
                 </div>
-                <div className="display-4 slide-in-2 white-font">
+                <div className="size-3 left-margin white slide-in-2">
                     Full Stack Web Developer
                 </div>
+            
             </section>
             
             <section id="about">
+                <Nav black={true} />
                 <div className="row p-5">
-                    <p className="col-12 display-2 p-4">
+                    <p className="col-12 lobster size-5">
                         Welcome
                     </p>
                     <div className="col-6">
-                        <p className="display-4 p-4">
+                        <p className="size-1-5 p-4">
                             Hi, my name is Dylan. I am currently located in Lansing, MI and persuing a career as a front-end, back-end, or full stack web developer. 
                         </p>
-                        <p className="display-4 p-4">
+                        <p className="size-1-5 p-4">
                             I have an associates degree as a computer programmer/analyst. I have recently completed the Thinkful software engineering bootcamp to strengthen my skills and prepare myself for a career in web development.
                         </p>
                     </div>
-                    <p className="col-6 display-4 p-4">
-                        In my free time I enjoy woodworking, gardening, crafts, and video games. I love learning new skills and working with my hands.
-                    </p>
+                    <div className="col-6">
+                        <p className="size-1-5 p-4">
+                            In my free time I enjoy woodworking, gardening, crafts, and video games. I love learning new skills and working with my hands.
+                        </p>
+                    </div>
                 </div>
             </section>
 
             <section id="resume">
+                <Nav />
                 <div className="row p-5">
                     <p className="col-12 display-2 p-4">
                         Resume (content coming soon)
@@ -72,6 +62,7 @@ export default function AltApp() {
             </section>
 
             <section id="skills">
+                <Nav />
                 <div className="row p-5">
                     <p className="display-2 p-4 col-12">Skills</p>
                 </div>
@@ -92,7 +83,8 @@ export default function AltApp() {
             </section>
 
             <section id="contact">
-            <div className="row p-5">
+                <Nav />
+                <div className="row p-5">
                     <p className="col-12 display-2 p-4">
                         Contact (content coming soon)
                     </p>

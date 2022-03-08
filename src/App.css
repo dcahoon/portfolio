@@ -1,16 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&family=Erica+One&family=Fascinate&family=Geostar+Fill&family=Libre+Barcode+39+Text&family=Lobster&family=Montserrat+Subrayada:wght@700&family=Notable&family=Noto+Sans+Egyptian+Hieroglyphs&family=Plaster&family=Zen+Dots&display=swap');
+
+.big-shoulder { font-family: 'Big Shoulders Inline Text', cursive; }
+.erica-one { font-family: 'Erica One', cursive; } 
+.fascinate { font-family: 'Fascinate', cursive; }
+.geostar-fill { font-family: 'Geostar Fill', cursive; }
+.libre-barcode { font-family: 'Libre Barcode 39 Text', cursive; }
+.lobster { font-family: 'Lobster', cursive; }
+.montserrat { font-family: 'Montserrat Subrayada', sans-serif; }
+.notable { font-family: 'Notable', sans-serif; }
+.noto-sans { font-family: 'Noto Sans Egyptian Hieroglyphs', sans-serif; }
+.plaster { font-family: 'Plaster', cursive; }
+.zen-dots { font-family: 'Zen Dots', cursive; }
+.left-margin { margin-left: 5% }
+.white { color: #fff; }
+.black { color: #000; }
+.name-header { margin-top: 11rem; }
+.size-1 { font-size: 1rem; }
+.size-1-25 { font-size: 1.25rem }
+.size-1-5 { font-size: 1.5rem; }
+.size-2 { font-size: 2rem; }
+.size-3 { font-size: 3rem; }
+.size-4 { font-size: 4rem; }
+.size-5 { font-size: 5rem; }
+.size-6 { font-size: 6rem; }
+.size-7 { font-size: 7rem; }
+.size-8 { font-size: 8rem; }
+
+
 * { margin: 0; padding: 0; }
 
 section {
     min-height: 100vh;
 }
 
-#resume, #contact {
+#contact {
     background-color: #ccc;
 }
 
-.white-font {
-    color: #fff;
-}
+
 
 .row {
     margin: 0;
@@ -22,6 +49,14 @@ section {
     background-position: center;
     width: 100%;
 }
+
+#resume {
+    background-image: url("./images/purple-8.png");
+    background-position: center;
+}
+
+
+
 
 .display-1, .display-3, .display-4 {
     margin-left: 5%;
@@ -48,17 +83,23 @@ h3 {
     color: #fff;
 }
 
-.nav-link {
-    color: white;
-    text-align: center;
-    margin-right: 4em;
-}
-.nav-link:hover {
-    background-color: #888;
+a {
+    color: #fff;
 }
 
-.navbar {
+
+.nav-link-black {
+    color: #000;
+}
+.nav-link {
     color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-right: 3em;
+}
+.nav-link:hover {
+    color: #000;
+    background-color: #ccc;
 }
 
 .icon-img {
