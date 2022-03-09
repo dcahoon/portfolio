@@ -13,7 +13,7 @@
 .zen-dots { font-family: 'Zen Dots', cursive; }
 .left-margin { margin-left: 5% }
 .white { color: #fff; }
-.black { color: #000; }
+#black { color: #000; }
 .name-header { margin-top: 11rem; }
 .size-1 { font-size: 1rem; }
 .size-1-25 { font-size: 1.25rem }
@@ -45,18 +45,37 @@ section {
 }
 
 .hero-section {
-    background-image: url("./images/hero_image_3.png");
+    background-image: url("./images/hexagons-3.png");
     background-position: center;
     width: 100%;
 }
 
 #resume {
-    background-image: url("./images/purple-8.png");
+    background-image: url("./images/hexagons-2.png");
     background-position: center;
 }
 
+#contact {
+    background-image: url("./images/hexagons-4.png");
+    background-position: center;
+}
 
+.large-link {
+    background-color: #444;
+    font-size: 2rem;
+    height: 100%;
+    color: #fff;
+    padding: 2rem;
+}
+.large-link:hover {
+    background-color: #666;
+    color: #fff;
+}
 
+.resume {
+    max-height: 500px;
+    text-align: center;
+}
 
 .display-1, .display-3, .display-4 {
     margin-left: 5%;

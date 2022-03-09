@@ -12,6 +12,11 @@ import github_icon from "./images/github_icon.jpg"
 import postman_icon from "./images/postman_icon.png"
 import react_router_icon from "./images/react_router_icon.jpg"
 import heroku_icon from "./images/heroku_icon.png"
+import bootstrap_icon from "./images/bootstrap_icon.png"
+import resume from "./images/resume.png"
+import email from "./images/email.png"
+import linkedin from "./images/linkedin.png"
+import github from "./images/github.png"
 
 
 export default function AltApp() {
@@ -55,14 +60,19 @@ export default function AltApp() {
             <section id="resume">
                 <Nav />
                 <div className="row p-5">
-                    <p className="col-12 display-2 p-4">
-                        Resume (content coming soon)
-                    </p>
+                    <div className="col-12 d-flex p-3">
+                        <button className="col-8 large-link btn" href="#">
+                            view resume
+                        </button>
+                        <div className="col-4 d-flex justify-content-center">
+                            <img className="img-fluid p-4 resume align-content-center" src={resume}></img>
+                        </div>
+                    </div> 
                 </div>
             </section>
 
             <section id="skills">
-                <Nav />
+                <Nav black={true} />
                 <div className="row p-5">
                     <p className="display-2 p-4 col-12">Skills</p>
                 </div>
@@ -79,15 +89,28 @@ export default function AltApp() {
                     <img src={react_router_icon} className="icon-img"></img>
                     <img src={postman_icon} className="icon-img"></img>
                     <img src={heroku_icon} className="icon-img"></img>
+                    <img src={bootstrap_icon} className="icon-img"></img>
                 </div>
             </section>
 
             <section id="contact">
                 <Nav />
-                <div className="row p-5">
-                    <p className="col-12 display-2 p-4">
-                        Contact (content coming soon)
-                    </p>
+                <div className="row p-5 d-flex">
+                    <div className="col-12 p-4">
+                        <a href="http://www.linkedin.com/in/dylancahoon" target="_blank">
+                            <img className="img-fluid large-link" src={linkedin}></img>
+                        </a>
+                    </div>
+                    <div className="col-6 p-4">
+                        <a href="https://www.github.com/dcahoon" target="_blank">
+                            <img className="img-fluid large-link" src={github}></img>
+                        </a>
+                    </div>
+                    <div className="col-6 p-4">
+                        <a href="mailto:dylancahoon651@yahoo.com">
+                            <img className="img-fluid large-link" src={email}></img>
+                        </a>
+                    </div>
                 </div>
             </section>
 
