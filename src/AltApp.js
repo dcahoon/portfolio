@@ -59,15 +59,13 @@ export default function AltApp() {
 
             <section id="resume">
                 <Nav />
-                <div className="row p-5">
-                    <div className="col-12 d-flex p-3">
-                        <button className="col-8 large-link btn" href="#">
-                            view resume
-                        </button>
-                        <div className="col-4 d-flex justify-content-center">
-                            <img className="img-fluid p-4 resume align-content-center" src={resume}></img>
-                        </div>
-                    </div> 
+                <div className="row d-flex justify-content-center">
+                    <div className="card mt-5 text-center text-white col-4">
+                        <img className="card-img resume" src={resume} alt="Card image" />
+                        <a className="card-img-overlay" href="./images/resume.pdf" download="DylanCahoonResume.pdf">
+                            <p className="card-text">Click here to download PDF</p>
+                        </a>
+                    </div>
                 </div>
             </section>
 
@@ -95,22 +93,16 @@ export default function AltApp() {
 
             <section id="contact">
                 <Nav />
-                <div className="row p-5 d-flex">
-                    <div className="col-12 p-4">
-                        <a href="http://www.linkedin.com/in/dylancahoon" target="_blank">
-                            <img className="img-fluid large-link" src={linkedin}></img>
-                        </a>
-                    </div>
-                    <div className="col-6 p-4">
-                        <a href="https://www.github.com/dcahoon" target="_blank">
-                            <img className="img-fluid large-link" src={github}></img>
-                        </a>
-                    </div>
-                    <div className="col-6 p-4">
-                        <a href="mailto:dylancahoon651@yahoo.com">
-                            <img className="img-fluid large-link" src={email}></img>
-                        </a>
-                    </div>
+                <div className="row p-5 link-container d-flex justify-content-around">
+                    <a className="col-3 h-100" id="large-link" href="https://www.github.com/dcahoon" target="_blank">
+                        GitHub
+                    </a>
+                    <a className="col-3 h-100" id="large-link" href="mailto:dylancahoon651@yahoo.com">
+                        Email
+                    </a>
+                    <a className="col-3 h-100" id="large-link" href="http://www.linkedin.com/in/dylancahoon" target="_blank">
+                        LinkedIn
+                    </a>
                 </div>
             </section>
 
