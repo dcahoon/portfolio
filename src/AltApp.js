@@ -93,14 +93,14 @@ export default function AltApp() {
 
             <section id="contact">
                 <Nav />
-                <div className="row p-5 link-container d-flex justify-content-around">
-                    <a className="col-3 h-100" id="large-link" href="https://www.github.com/dcahoon" target="_blank">
+                <div className="row p-5 mt-5 link-container d-flex justify-content-around">
+                    <a className="col-3 h-50" id="large-link" href="https://www.github.com/dcahoon" target="_blank">
                         GitHub
                     </a>
-                    <a className="col-3 h-100" id="large-link" href="mailto:dylancahoon651@yahoo.com">
+                    <a className="col-3 h-50" id="large-link" href="mailto:dylancahoon651@yahoo.com">
                         Email
                     </a>
-                    <a className="col-3 h-100" id="large-link" href="http://www.linkedin.com/in/dylancahoon" target="_blank">
+                    <a className="col-3 h-50" id="large-link" href="http://www.linkedin.com/in/dylancahoon" target="_blank">
                         LinkedIn
                     </a>
                 </div>
