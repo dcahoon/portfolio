@@ -45,18 +45,18 @@ section {
 }
 
 .hero-section {
-    background-image: url("./images/hexagons-3.png");
+    background-image: url("./images/dark-hexagons-1.png");
     background-position: center;
     width: 100%;
 }
 
 #resume {
-    background-image: url("./images/hexagons-2.png");
+    background-image: url("./images/dark-hexagons-2.png");
     background-position: center;
 }
 
 #contact {
-    background-image: url("./images/hexagons-4.png");
+    background-image: url("./images/dark-hexagons-4.png");
     background-position: center;
 }
 
